@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
+  <channel>
+    <title>Haskell on 陶语冰的博客</title>
+    <link>https://shorterthandijkstra.github.io/tags/haskell/</link>
+    <description>Recent content in Haskell on 陶语冰的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Dec 2023 21:40:50 +0800</lastBuildDate><atom:link href="https://shorterthandijkstra.github.io/tags/haskell/index.xml" rel="self" type="application/rss+xml" /><icon>https://shorterthandijkstra.github.io/img/icon.svg</icon>
+    
+    
+    <item>
+      <title>memorized Fibonacci sequence</title>
+      <link>https://shorterthandijkstra.github.io/posts/memorized-fibonacci/</link>
+      <pubDate>Mon, 25 Dec 2023 21:40:50 +0800</pubDate>
+      
+      <guid>https://shorterthandijkstra.github.io/posts/memorized-fibonacci/</guid>
+      <description><![CDATA[<p>今天在Codewars刷到<a href="https://www.codewars.com/kata/529adbf7533b761c560004e5/train/haskell">一题</a>，看到一个人的解答很巧妙。</p>
+<p>众所周知，下面这段求斐波那契数列的代码很慢：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-haskell" data-lang="haskell"><span style="display:flex;"><span><span style="color:#50fa7b">fibonacci</span> <span style="color:#ff79c6">::</span> <span style="color:#8be9fd">Int</span> <span style="color:#ff79c6">-&gt;</span> <span style="color:#8be9fd">Integer</span>
+</span></span><span style="display:flex;"><span><span style="color:#50fa7b">fibonacci</span> <span style="color:#bd93f9">0</span> <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#50fa7b">fibonacci</span> <span style="color:#bd93f9">1</span> <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">1</span>
+</span></span><span style="display:flex;"><span><span style="color:#50fa7b">fibonacci</span> n <span style="color:#ff79c6">=</span> fibonacci (n<span style="color:#ff79c6">-</span><span style="color:#bd93f9">1</span>) <span style="color:#ff79c6">+</span> fibonacci (n<span style="color:#ff79c6">-</span><span style="color:#bd93f9">2</span>)
+</span></span></code></pre></div><p>我们可以转成迭代的方式或者使用记忆化搜索。</p>
+<p>这是我从SICP的3.5节学到的，利用惰性求值算自然数数列：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>nat :: [Int]
+</span></span><span style="display:flex;"><span>nat  = 0:map (+1) nat
+</span></span></code></pre></div><p>ok，你已经学会了怎么求自然数数列，接下来算斐波那契数列吧：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-haskell" data-lang="haskell"><span style="display:flex;"><span><span style="color:#50fa7b">fib</span> <span style="color:#ff79c6">::</span> <span style="color:#8be9fd">Int</span> <span style="color:#ff79c6">-&gt;</span> [<span style="color:#8be9fd">Int</span>]
+</span></span><span style="display:flex;"><span><span style="color:#50fa7b">fib</span> <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">0</span><span style="color:#8be9fd">:</span><span style="color:#bd93f9">1</span><span style="color:#8be9fd">:</span>zipWith (<span style="color:#ff79c6">+</span>) fib (tail fib)
+</span></span></code></pre></div><p>但是能不能在保留树形递归的同时进行记忆化搜索呢？</p>
+<p>下面这段代码我觉得非常巧妙：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-haskell" data-lang="haskell"><span style="display:flex;"><span><span style="color:#50fa7b">fibonacci</span> <span style="color:#ff79c6">::</span> <span style="color:#8be9fd">Int</span> <span style="color:#ff79c6">-&gt;</span> <span style="color:#8be9fd">Integer</span>
+</span></span><span style="display:flex;"><span><span style="color:#50fa7b">fibonacci</span> <span style="color:#ff79c6">=</span> (map fib&#39; [<span style="color:#bd93f9">0</span><span style="color:#ff79c6">..</span>] <span style="color:#ff79c6">!!</span>)
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">where</span>
+</span></span><span style="display:flex;"><span>		fib&#39; <span style="color:#bd93f9">0</span> <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">0</span>
+</span></span><span style="display:flex;"><span>		fib&#39; <span style="color:#bd93f9">1</span> <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">1</span>
+</span></span><span style="display:flex;"><span>		fib&#39; n <span style="color:#ff79c6">=</span> fibonacci (n <span style="color:#ff79c6">-</span> <span style="color:#bd93f9">1</span>) <span style="color:#ff79c6">+</span> fibonacci (n <span style="color:#ff79c6">-</span> <span style="color:#bd93f9">2</span>)
+</span></span></code></pre></div><p>以我对Haskell的浅薄理解，我证明不了上述代码有记忆化搜索的性质，希望有高手能教教我。</p>
+<p>但是速度肯定是快多了，毕竟<a href="https://wiki.haskell.org/Memoization">Haskell Wiki</a>上是这样说的。</p>
+<p>（ok，这个月的博客糊弄完了！）</p>
+]]></description>
+      
+    </item>
+    
+    
+  </channel>
+</rss>

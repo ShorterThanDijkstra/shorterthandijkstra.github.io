@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
+  <channel>
+    <title>操作系统 on 陶语冰的博客</title>
+    <link>https://shorterthandijkstra.github.io/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
+    <description>Recent content in 操作系统 on 陶语冰的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Nov 2023 21:40:28 +0800</lastBuildDate><atom:link href="https://shorterthandijkstra.github.io/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml" /><icon>https://shorterthandijkstra.github.io/img/icon.svg</icon>
+    
+    
+    <item>
+      <title>测量TLB的容量和访问TLB的开销</title>
+      <link>https://shorterthandijkstra.github.io/posts/tlb-measurement/</link>
+      <pubDate>Tue, 21 Nov 2023 21:40:28 +0800</pubDate>
+      
+      <guid>https://shorterthandijkstra.github.io/posts/tlb-measurement/</guid>
+      <description><![CDATA[<p>TLB的全称是translation lookaside buffer，不懂这个概念的人就不要看下去了，本文只讲讲怎么测量TLB的容量和访问TLB的开销。</p>
+<p>先来讲基本思路。假设我们有一个横跨多页的大数组arr，页面大小是4096个字节，int大小为4个字节，那么每页就有1024个数组元素。第1次访问arr[0]，第1次访问arr[1024]，第1次访问arr[2048] &hellip;&hellip; 于是我们就依次访问了第1页，第2页，第3页&hellip;&hellip;</p>
+<p>开一个横跨多页的数组，依次修改各个页里面的数组元素，访问的页面数量逐渐变多，直到超过了TLB的容量，访问数组元素就会变慢，这就是基本思路。</p>
+<p>几个问题：</p>
+<ol>
+<li>如何知道操作系统的页面大小？</li>
+<li>对于有多个CPU的计算机，为了得到更准确的数据，如何做到程序只在一个CPU上运行？</li>
+</ol>
+<p>Talk is cheap, show you my code：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#ff79c6">#define _GNU_SOURCE
+</span></span></span><span style="display:flex;"><span><span style="color:#ff79c6">#include</span> <span style="color:#ff79c6">&lt;fcntl.h&gt;</span><span style="color:#ff79c6">
+</span></span></span><span style="display:flex;"><span><span style="color:#ff79c6">#include</span> <span style="color:#ff79c6">&lt;stdint.h&gt;</span><span style="color:#ff79c6">
+</span></span></span><span style="display:flex;"><span><span style="color:#ff79c6">#include</span> <span style="color:#ff79c6">&lt;stdio.h&gt;</span><span style="color:#ff79c6">
+</span></span></span><span style="display:flex;"><span><span style="color:#ff79c6">#include</span> <span style="color:#ff79c6">&lt;stdlib.h&gt;</span><span style="color:#ff79c6">
+</span></span></span><span style="display:flex;"><span><span style="color:#ff79c6">#include</span> <span style="color:#ff79c6">&lt;sys/time.h&gt;</span><span style="color:#ff79c6">
+</span></span></span><span style="display:flex;"><span><span style="color:#ff79c6">#include</span> <span style="color:#ff79c6">&lt;unistd.h&gt;</span><span style="color:#ff79c6">
+</span></span></span><span style="display:flex;"><span><span style="color:#ff79c6">#include</span> <span style="color:#ff79c6">&lt;sched.h&gt;</span><span style="color:#ff79c6">
+</span></span></span><span style="display:flex;"><span><span style="color:#ff79c6"></span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">#define MAX_NUM_PAGES 256
+</span></span></span><span style="display:flex;"><span><span style="color:#ff79c6">#define TRIALS 10000000
+</span></span></span><span style="display:flex;"><span><span style="color:#ff79c6"></span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd">void</span> <span style="color:#50fa7b">trials</span>(<span style="color:#8be9fd">int</span> jump, <span style="color:#8be9fd">int</span> num_pages, <span style="color:#8be9fd">int</span> arr[])
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">struct</span> timeval start, end;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#50fa7b">gettimeofday</span>(<span style="color:#ff79c6">&amp;</span>start, <span style="color:#8be9fd;font-style:italic">NULL</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">for</span> (<span style="color:#8be9fd">int</span> i <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">0</span>; i <span style="color:#ff79c6">&lt;</span> TRIALS; i<span style="color:#ff79c6">++</span>)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">for</span> (<span style="color:#8be9fd">int</span> i <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">0</span>; i <span style="color:#ff79c6">&lt;</span> num_pages <span style="color:#ff79c6">*</span> jump; i <span style="color:#ff79c6">+=</span> jump)
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            arr[i] <span style="color:#ff79c6">+=</span> <span style="color:#bd93f9">1</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#50fa7b">gettimeofday</span>(<span style="color:#ff79c6">&amp;</span>end, <span style="color:#8be9fd;font-style:italic">NULL</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd">uint64_t</span> trial_time <span style="color:#ff79c6">=</span> (end.tv_sec <span style="color:#ff79c6">-</span> start.tv_sec) <span style="color:#ff79c6">*</span> <span style="color:#bd93f9">1000000</span> 
+</span></span><span style="display:flex;"><span>                          <span style="color:#ff79c6">+</span> end.tv_usec <span style="color:#ff79c6">-</span> start.tv_usec;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd">double</span> one_trial_time <span style="color:#ff79c6">=</span> trial_time 
+</span></span><span style="display:flex;"><span>                           <span style="color:#ff79c6">/</span> (<span style="color:#8be9fd">double</span>)(num_pages <span style="color:#ff79c6">*</span> TRIALS);
+</span></span><span style="display:flex;"><span>    <span style="color:#50fa7b">printf</span>(<span style="color:#f1fa8c">&#34;pages:%d, average time:%f</span><span style="color:#f1fa8c">\n</span><span style="color:#f1fa8c">&#34;</span>, 
+</span></span><span style="display:flex;"><span>            num_pages, one_trial_time);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd">int</span> <span style="color:#50fa7b">main</span>(<span style="color:#8be9fd">int</span> argc, <span style="color:#8be9fd">char</span> <span style="color:#ff79c6">*</span>argv[])
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd">cpu_set_t</span> cpuset;
+</span></span><span style="display:flex;"><span>    <span style="color:#50fa7b">CPU_ZERO</span>(<span style="color:#ff79c6">&amp;</span>cpuset);
+</span></span><span style="display:flex;"><span>    <span style="color:#50fa7b">CPU_SET</span>(<span style="color:#bd93f9">0</span>, <span style="color:#ff79c6">&amp;</span>cpuset);
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">if</span> (<span style="color:#50fa7b">sched_setaffinity</span>(<span style="color:#bd93f9">0</span>, <span style="color:#ff79c6">sizeof</span>(<span style="color:#8be9fd">cpu_set_t</span>), <span style="color:#ff79c6">&amp;</span>cpuset))
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#50fa7b">fprintf</span>(stderr, <span style="color:#f1fa8c">&#34;Error setting cpu affinity</span><span style="color:#f1fa8c">\n</span><span style="color:#f1fa8c">&#34;</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#50fa7b">exit</span>(EXIT_FAILURE);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd">int</span> page_size <span style="color:#ff79c6">=</span> <span style="color:#50fa7b">getpagesize</span>();
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd">int</span> jump <span style="color:#ff79c6">=</span> page_size <span style="color:#ff79c6">/</span> <span style="color:#ff79c6">sizeof</span>(<span style="color:#8be9fd">int</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd">int</span> <span style="color:#ff79c6">*</span>arr <span style="color:#ff79c6">=</span> (<span style="color:#8be9fd">int</span> <span style="color:#ff79c6">*</span>)<span style="color:#50fa7b">calloc</span>(MAX_NUM_PAGES <span style="color:#ff79c6">*</span> jump, <span style="color:#ff79c6">sizeof</span>(<span style="color:#8be9fd">int</span>));
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">for</span> (<span style="color:#8be9fd">int</span> pages <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">1</span>; pages <span style="color:#ff79c6">&lt;</span> MAX_NUM_PAGES; pages<span style="color:#ff79c6">++</span>)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#50fa7b">trials</span>(jump, pages, arr);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>不开任何优化，使用GCC编译运行，然后查看结果。在我的计算机上，访问页面数量在[1,10]这个区间时，访问一页所需的时间大约为3ns左右；当页面数量落在[11, 26]时，所需时间为6ns左右；继续增加页面数量，所需时间涨到10ns上下了。这说明系统存在二级TLB。我很懒，就不画折线图了。</p>
+<p>如果你有什么想法，或者发现了本文的问题，欢迎给我发<!-- raw HTML omitted -->邮件<!-- raw HTML omitted -->。</p>
+]]></description>
+      
+    </item>
+    
+    
+  </channel>
+</rss>

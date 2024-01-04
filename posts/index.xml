@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
+  <channel>
+    <title>Posts on 陶语冰的博客</title>
+    <link>https://shorterthandijkstra.github.io/posts/</link>
+    <description>Recent content in Posts on 陶语冰的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 2024 21:40:28 +0800</lastBuildDate><atom:link href="https://shorterthandijkstra.github.io/posts/index.xml" rel="self" type="application/rss+xml" /><icon>https://shorterthandijkstra.github.io/img/icon.svg</icon>
+    
+    
+    <item>
+      <title>End of 2023</title>
+      <link>https://shorterthandijkstra.github.io/posts/end-of-2023/</link>
+      <pubDate>Mon, 01 Jan 2024 21:40:28 +0800</pubDate>
+      
+      <guid>https://shorterthandijkstra.github.io/posts/end-of-2023/</guid>
+      <description><![CDATA[<p>如你所见，今天是2024年的第一天，我在夜晚写下这篇2023年的个人总结。</p>
+<h1 id="学习">学习</h1>
+<p>出于对PL的兴趣，看完了Friedman的<!-- raw HTML omitted -->EOPL<!-- raw HTML omitted -->，这书的内容大致是教人实现一个不标准的Ocaml。我把<!-- raw HTML omitted -->习题<!-- raw HTML omitted -->做完了，写了非常多的解释器。这是我看的Friedman的第一本书，有时间把其他的作品也读读。</p>
+<p>然后出于对编译器的兴趣，又读了一下Jeremy的<!-- raw HTML omitted --> Essentials of Compilation <!-- raw HTML omitted -->。因为不熟悉汇编，中间抽时间读完了王爽的《汇编语言》，不过读完后感觉这书过时了。和EOPL一样，EOC也是用Scheme作为教学语言，动态类型的语言重构起来很难受。我花了很多时间写GC和寄存器分配，最后写出来的编译器很多bug。虽然Scheme是我的编程语言初恋，但是我不会再用它写大型项目了。或许我应该直接读虎书。</p>
+<p>对自己诚实是一个宝贵的品质。我本科的C语言学得很糟糕，对此我感到很焦虑。中间抽空把<!-- raw HTML omitted -->K&amp;R<!-- raw HTML omitted -->读完了，没做习题，刷了几道<!-- raw HTML omitted -->codewars <!-- raw HTML omitted -->。我操作系统也没学好，所以我把<!-- raw HTML omitted -->OSTEP<!-- raw HTML omitted -->读了一遍。</p>
+<p>其它编程语言方面，我看了一点Ocaml的内容，想实现一个<!-- raw HTML omitted -->编程语言<!-- raw HTML omitted -->，用来当作找一份相关工作的筹码，但是目前搁置了。等继续学数理逻辑和TAPL的时候再说吧。同时也学了一下Rust，看了一些材料，刷了一些<!-- raw HTML omitted -->codewars<!-- raw HTML omitted -->和<!-- raw HTML omitted -->codeforces<!-- raw HTML omitted -->。</p>
+<p>除此之外，我看了一些金融，区块链方面的材料，也在继续学英语。</p>
+<p>看似学了很多东西，但是我其实可以做得更好。因为自制力不够，我浪费了很多时间。比如玩手机玩得很晚，第二天脑袋昏沉，无法学习。希望自己能慢慢改变这些不好的习惯。</p>
+<p>我有一股深深的知识和技能焦虑，比起其他厉害的同龄人，我差太远了，起步晚，中间还走错了路。我不嫉妒他们，但是需要努力向他们学习，这样才不会落得太远。当然，求知的第一推动力应该是兴趣和好奇。</p>
+<h1 id="自由">自由</h1>
+<p>我将分两个维度讨论这个问题：精神自由和财富自由。</p>
+<p>首先讨论精神自由。庄子说：“岂唯形骸有聋盲哉？”我深感自己的心智受到了蒙蔽，被困在枷锁中。我浅浅分析了一下，导致我精神困境的因素主要有两个，第一个是错误的观念。</p>
+<p>笛卡尔在《第一哲学沉思集》里的第一个沉思里这样写道：</p>
+<blockquote>
+<p>由于很久以来我就感觉到我自从幼年时期起就把一大堆错误的见解当作真实的接受了过来，而从那时以后我根据一些非常靠不住的原则建立起来的东西都不能不是十分可以、十分不可靠的，因此我认为，如果我想要在科学上建立起某种坚定可靠、经久不变的东西的话，我就非在我有生之日认真地把我历来信以为真的一切见解统统清除出去，再从根本上重新开始不可。</p>
+</blockquote>
+<p>在我成长的过程中，我也把一大堆错误的见解刻在自己的脑中，这给我的心灵造成了很大的痛苦。</p>
+<p>第二个因素是我自制力很差，无法控制自己享乐的欲望：比如沉迷短视频这种垃圾快乐（我从来不刷抖音，但是我喜欢玩b站），比如渴望女人的肉体，比如想要在他人身上获得虚荣。哲学家警告我们，金钱和社会地位是不值得追求的，对精神自由有害，但是和大多数人一样，我发现对这些东西的追逐是个迷人的游戏。</p>
+<p>我昨天读完了一本介绍<!-- raw HTML omitted -->斯多葛主义的书<!-- raw HTML omitted -->，它上面给出的一些建议或者有助于获得精神上的<!-- raw HTML omitted -->安宁<!-- raw HTML omitted -->。</p>
+<ul>
+<li>想象自己可能会遭受悲惨境遇，这样当灾难来临时，痛苦会减轻一些，同时也会让我们更珍惜当下所拥有的。</li>
+<li>将事情分为三个维度：我们不能控制的，比如天气；我们能够控制的，比如自己的价值观；我们能够在一定程度上控制的，比如赢得一场比赛。对于我们不能控制的事物，根本无需过多担心。对于我们能够控制的，我们应该细心把控。对于最后一种情况，我们要学会区分内在和外在的目标，将努力放在实现内在目标上。比如参加网球比赛，外在目标是赢得比赛，这是我们不能控制的。但是我们可以在平时努力训练，赛前好好休息，这是我们能够实现的内在目标。</li>
+<li>为了获得未来的安宁，可以思考过去和现在，但是过去和现在是无法改变的，所以只能拥抱它们。</li>
+<li>偶尔过一种清苦的生活，警惕享乐。这能锻炼我们的意志力和自控力，它们对践行一种人生哲学是至关重要的。</li>
+<li>时常反省自己，审视自己的思想，审视自己的情感，审视自己的动因。</li>
+</ul>
+<p>我还读了一点《庄子》，但是刚开始。</p>
+<p>接下来讨论财富自由。</p>
+<p>哲学家告诫我们，财富是不值得追求的。人生短暂，我也认为把生命的主要精力放在追求财富上是愚蠢的。但是我认为财富有其价值。首先一点，如果有钱了，我就可以不做厌恶的工作，我可以把精力放在学习，写代码，阅读，旅游上。中国是一个福利很差的国家，财富能让我的家人过上更好的生活。</p>
+<p>但是获得财富是很困难的，而且世界变得越来越不平等。认真打工的人很难买一栋房子，很多人投机取巧甚至贪赃枉法却能获取巨量的钱财。</p>
+<p>我也看了一下北大教授的<!-- raw HTML omitted -->《金融经济学二十五讲》<!-- raw HTML omitted -->，但是很困惑，精力又不够，后面就放弃了。</p>
+<h1 id="工作">工作</h1>
+<p>很多的工作是没有意义的，甚至是对社会有害的。我目前的工作只能用来糊口，既赚不到什么钱，也学不到什么。</p>
+<p>希望自己以后能够做一些酷的工作，认识酷的人，这样，即使赚不到钱也没关系。</p>
+<h1 id="2024年要做什么">2024年要做什么</h1>
+<ul>
+<li>强健的体魄，健康的作息。</li>
+<li>继续学习PLT，学习数理逻辑和类型论。</li>
+<li>刷Project Euler。</li>
+<li>践行斯多葛主义。</li>
+<li>希望能够找一份编程语言相关的工作。</li>
+<li>有时间学习一下乐理。</li>
+</ul>
+]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>memorized Fibonacci sequence</title>
+      <link>https://shorterthandijkstra.github.io/posts/memorized-fibonacci/</link>
+      <pubDate>Mon, 25 Dec 2023 21:40:50 +0800</pubDate>
+      
+      <guid>https://shorterthandijkstra.github.io/posts/memorized-fibonacci/</guid>
+      <description><![CDATA[<p>今天在Codewars刷到<a href="https://www.codewars.com/kata/529adbf7533b761c560004e5/train/haskell">一题</a>，看到一个人的解答很巧妙。</p>
+<p>众所周知，下面这段求斐波那契数列的代码很慢：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-haskell" data-lang="haskell"><span style="display:flex;"><span><span style="color:#50fa7b">fibonacci</span> <span style="color:#ff79c6">::</span> <span style="color:#8be9fd">Int</span> <span style="color:#ff79c6">-&gt;</span> <span style="color:#8be9fd">Integer</span>
+</span></span><span style="display:flex;"><span><span style="color:#50fa7b">fibonacci</span> <span style="color:#bd93f9">0</span> <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#50fa7b">fibonacci</span> <span style="color:#bd93f9">1</span> <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">1</span>
+</span></span><span style="display:flex;"><span><span style="color:#50fa7b">fibonacci</span> n <span style="color:#ff79c6">=</span> fibonacci (n<span style="color:#ff79c6">-</span><span style="color:#bd93f9">1</span>) <span style="color:#ff79c6">+</span> fibonacci (n<span style="color:#ff79c6">-</span><span style="color:#bd93f9">2</span>)
+</span></span></code></pre></div><p>我们可以转成迭代的方式或者使用记忆化搜索。</p>
+<p>这是我从SICP的3.5节学到的，利用惰性求值算自然数数列：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>nat :: [Int]
+</span></span><span style="display:flex;"><span>nat  = 0:map (+1) nat
+</span></span></code></pre></div><p>ok，你已经学会了怎么求自然数数列，接下来算斐波那契数列吧：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-haskell" data-lang="haskell"><span style="display:flex;"><span><span style="color:#50fa7b">fib</span> <span style="color:#ff79c6">::</span> <span style="color:#8be9fd">Int</span> <span style="color:#ff79c6">-&gt;</span> [<span style="color:#8be9fd">Int</span>]
+</span></span><span style="display:flex;"><span><span style="color:#50fa7b">fib</span> <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">0</span><span style="color:#8be9fd">:</span><span style="color:#bd93f9">1</span><span style="color:#8be9fd">:</span>zipWith (<span style="color:#ff79c6">+</span>) fib (tail fib)
+</span></span></code></pre></div><p>但是能不能在保留树形递归的同时进行记忆化搜索呢？</p>
+<p>下面这段代码我觉得非常巧妙：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-haskell" data-lang="haskell"><span style="display:flex;"><span><span style="color:#50fa7b">fibonacci</span> <span style="color:#ff79c6">::</span> <span style="color:#8be9fd">Int</span> <span style="color:#ff79c6">-&gt;</span> <span style="color:#8be9fd">Integer</span>
+</span></span><span style="display:flex;"><span><span style="color:#50fa7b">fibonacci</span> <span style="color:#ff79c6">=</span> (map fib&#39; [<span style="color:#bd93f9">0</span><span style="color:#ff79c6">..</span>] <span style="color:#ff79c6">!!</span>)
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">where</span>
+</span></span><span style="display:flex;"><span>		fib&#39; <span style="color:#bd93f9">0</span> <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">0</span>
+</span></span><span style="display:flex;"><span>		fib&#39; <span style="color:#bd93f9">1</span> <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">1</span>
+</span></span><span style="display:flex;"><span>		fib&#39; n <span style="color:#ff79c6">=</span> fibonacci (n <span style="color:#ff79c6">-</span> <span style="color:#bd93f9">1</span>) <span style="color:#ff79c6">+</span> fibonacci (n <span style="color:#ff79c6">-</span> <span style="color:#bd93f9">2</span>)
+</span></span></code></pre></div><p>以我对Haskell的浅薄理解，我证明不了上述代码有记忆化搜索的性质，希望有高手能教教我。</p>
+<p>但是速度肯定是快多了，毕竟<a href="https://wiki.haskell.org/Memoization">Haskell Wiki</a>上是这样说的。</p>
+<p>（ok，这个月的博客糊弄完了！）</p>
+]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>测量TLB的容量和访问TLB的开销</title>
+      <link>https://shorterthandijkstra.github.io/posts/tlb-measurement/</link>
+      <pubDate>Tue, 21 Nov 2023 21:40:28 +0800</pubDate>
+      
+      <guid>https://shorterthandijkstra.github.io/posts/tlb-measurement/</guid>
+      <description><![CDATA[<p>TLB的全称是translation lookaside buffer，不懂这个概念的人就不要看下去了，本文只讲讲怎么测量TLB的容量和访问TLB的开销。</p>
+<p>先来讲基本思路。假设我们有一个横跨多页的大数组arr，页面大小是4096个字节，int大小为4个字节，那么每页就有1024个数组元素。第1次访问arr[0]，第1次访问arr[1024]，第1次访问arr[2048] &hellip;&hellip; 于是我们就依次访问了第1页，第2页，第3页&hellip;&hellip;</p>
+<p>开一个横跨多页的数组，依次修改各个页里面的数组元素，访问的页面数量逐渐变多，直到超过了TLB的容量，访问数组元素就会变慢，这就是基本思路。</p>
+<p>几个问题：</p>
+<ol>
+<li>如何知道操作系统的页面大小？</li>
+<li>对于有多个CPU的计算机，为了得到更准确的数据，如何做到程序只在一个CPU上运行？</li>
+</ol>
+<p>Talk is cheap, show you my code：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#ff79c6">#define _GNU_SOURCE
+</span></span></span><span style="display:flex;"><span><span style="color:#ff79c6">#include</span> <span style="color:#ff79c6">&lt;fcntl.h&gt;</span><span style="color:#ff79c6">
+</span></span></span><span style="display:flex;"><span><span style="color:#ff79c6">#include</span> <span style="color:#ff79c6">&lt;stdint.h&gt;</span><span style="color:#ff79c6">
+</span></span></span><span style="display:flex;"><span><span style="color:#ff79c6">#include</span> <span style="color:#ff79c6">&lt;stdio.h&gt;</span><span style="color:#ff79c6">
+</span></span></span><span style="display:flex;"><span><span style="color:#ff79c6">#include</span> <span style="color:#ff79c6">&lt;stdlib.h&gt;</span><span style="color:#ff79c6">
+</span></span></span><span style="display:flex;"><span><span style="color:#ff79c6">#include</span> <span style="color:#ff79c6">&lt;sys/time.h&gt;</span><span style="color:#ff79c6">
+</span></span></span><span style="display:flex;"><span><span style="color:#ff79c6">#include</span> <span style="color:#ff79c6">&lt;unistd.h&gt;</span><span style="color:#ff79c6">
+</span></span></span><span style="display:flex;"><span><span style="color:#ff79c6">#include</span> <span style="color:#ff79c6">&lt;sched.h&gt;</span><span style="color:#ff79c6">
+</span></span></span><span style="display:flex;"><span><span style="color:#ff79c6"></span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">#define MAX_NUM_PAGES 256
+</span></span></span><span style="display:flex;"><span><span style="color:#ff79c6">#define TRIALS 10000000
+</span></span></span><span style="display:flex;"><span><span style="color:#ff79c6"></span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd">void</span> <span style="color:#50fa7b">trials</span>(<span style="color:#8be9fd">int</span> jump, <span style="color:#8be9fd">int</span> num_pages, <span style="color:#8be9fd">int</span> arr[])
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">struct</span> timeval start, end;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#50fa7b">gettimeofday</span>(<span style="color:#ff79c6">&amp;</span>start, <span style="color:#8be9fd;font-style:italic">NULL</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">for</span> (<span style="color:#8be9fd">int</span> i <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">0</span>; i <span style="color:#ff79c6">&lt;</span> TRIALS; i<span style="color:#ff79c6">++</span>)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">for</span> (<span style="color:#8be9fd">int</span> i <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">0</span>; i <span style="color:#ff79c6">&lt;</span> num_pages <span style="color:#ff79c6">*</span> jump; i <span style="color:#ff79c6">+=</span> jump)
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            arr[i] <span style="color:#ff79c6">+=</span> <span style="color:#bd93f9">1</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#50fa7b">gettimeofday</span>(<span style="color:#ff79c6">&amp;</span>end, <span style="color:#8be9fd;font-style:italic">NULL</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd">uint64_t</span> trial_time <span style="color:#ff79c6">=</span> (end.tv_sec <span style="color:#ff79c6">-</span> start.tv_sec) <span style="color:#ff79c6">*</span> <span style="color:#bd93f9">1000000</span> 
+</span></span><span style="display:flex;"><span>                          <span style="color:#ff79c6">+</span> end.tv_usec <span style="color:#ff79c6">-</span> start.tv_usec;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd">double</span> one_trial_time <span style="color:#ff79c6">=</span> trial_time 
+</span></span><span style="display:flex;"><span>                           <span style="color:#ff79c6">/</span> (<span style="color:#8be9fd">double</span>)(num_pages <span style="color:#ff79c6">*</span> TRIALS);
+</span></span><span style="display:flex;"><span>    <span style="color:#50fa7b">printf</span>(<span style="color:#f1fa8c">&#34;pages:%d, average time:%f</span><span style="color:#f1fa8c">\n</span><span style="color:#f1fa8c">&#34;</span>, 
+</span></span><span style="display:flex;"><span>            num_pages, one_trial_time);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd">int</span> <span style="color:#50fa7b">main</span>(<span style="color:#8be9fd">int</span> argc, <span style="color:#8be9fd">char</span> <span style="color:#ff79c6">*</span>argv[])
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd">cpu_set_t</span> cpuset;
+</span></span><span style="display:flex;"><span>    <span style="color:#50fa7b">CPU_ZERO</span>(<span style="color:#ff79c6">&amp;</span>cpuset);
+</span></span><span style="display:flex;"><span>    <span style="color:#50fa7b">CPU_SET</span>(<span style="color:#bd93f9">0</span>, <span style="color:#ff79c6">&amp;</span>cpuset);
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">if</span> (<span style="color:#50fa7b">sched_setaffinity</span>(<span style="color:#bd93f9">0</span>, <span style="color:#ff79c6">sizeof</span>(<span style="color:#8be9fd">cpu_set_t</span>), <span style="color:#ff79c6">&amp;</span>cpuset))
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#50fa7b">fprintf</span>(stderr, <span style="color:#f1fa8c">&#34;Error setting cpu affinity</span><span style="color:#f1fa8c">\n</span><span style="color:#f1fa8c">&#34;</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#50fa7b">exit</span>(EXIT_FAILURE);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd">int</span> page_size <span style="color:#ff79c6">=</span> <span style="color:#50fa7b">getpagesize</span>();
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd">int</span> jump <span style="color:#ff79c6">=</span> page_size <span style="color:#ff79c6">/</span> <span style="color:#ff79c6">sizeof</span>(<span style="color:#8be9fd">int</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd">int</span> <span style="color:#ff79c6">*</span>arr <span style="color:#ff79c6">=</span> (<span style="color:#8be9fd">int</span> <span style="color:#ff79c6">*</span>)<span style="color:#50fa7b">calloc</span>(MAX_NUM_PAGES <span style="color:#ff79c6">*</span> jump, <span style="color:#ff79c6">sizeof</span>(<span style="color:#8be9fd">int</span>));
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">for</span> (<span style="color:#8be9fd">int</span> pages <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">1</span>; pages <span style="color:#ff79c6">&lt;</span> MAX_NUM_PAGES; pages<span style="color:#ff79c6">++</span>)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#50fa7b">trials</span>(jump, pages, arr);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>不开任何优化，使用GCC编译运行，然后查看结果。在我的计算机上，访问页面数量在[1,10]这个区间时，访问一页所需的时间大约为3ns左右；当页面数量落在[11, 26]时，所需时间为6ns左右；继续增加页面数量，所需时间涨到10ns上下了。这说明系统存在二级TLB。我很懒，就不画折线图了。</p>
+<p>如果你有什么想法，或者发现了本文的问题，欢迎给我发<!-- raw HTML omitted -->邮件<!-- raw HTML omitted -->。</p>
+]]></description>
+      
+    </item>
+    
+    
+  </channel>
+</rss>
