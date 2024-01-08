@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
+  <channel>
+    <title>Forth on 陶语冰的博客</title>
+    <link>https://shorterthandijkstra.github.io/tags/forth/</link>
+    <description>Recent content in Forth on 陶语冰的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Jan 2024 18:56:42 +0800</lastBuildDate><atom:link href="https://shorterthandijkstra.github.io/tags/forth/index.xml" rel="self" type="application/rss+xml" /><icon>https://shorterthandijkstra.github.io/img/icon.svg</icon>
+    
+    
+    <item>
+      <title>Forth: The programming language that writes itself</title>
+      <link>https://shorterthandijkstra.github.io/posts/forth-reading/</link>
+      <pubDate>Mon, 08 Jan 2024 18:56:42 +0800</pubDate>
+      
+      <guid>https://shorterthandijkstra.github.io/posts/forth-reading/</guid>
+      <description><![CDATA[<p>这两天读一篇介绍Forth的<a href='https://ratfactor.com/forth/the_programming_language_that_writes_itself.html'>文章</a>，非常长，谨慎阅读。</p>
+<p>讲了一些Forth的特性（Stack-based, Concatenative programming等），和创始人Chuck Moore发展Forth的历程，以及Forth的一些成功应用。</p>
+<p>文章还列出了很多有趣的链接。</p>
+]]></description>
+      
+    </item>
+    
+    
+  </channel>
+</rss>

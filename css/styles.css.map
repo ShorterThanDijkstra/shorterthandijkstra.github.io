@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "styles.css",
-	"sourceRoot": "/home/maerd_zinbiel/Desktop/blog/shorterthandijkstra.github.io",
+	"sourceRoot": "/home/maerd_zinbiel/Desktop/blog/blog",
 	"sources": [
 		"themes/hugo-ficurinia/assets/scss/style.scss"
 	],

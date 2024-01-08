@@ -78,7 +78,7 @@
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>不开任何优化，使用GCC编译运行，然后查看结果。在我的计算机上，访问页面数量在[1,10]这个区间时，访问一页所需的时间大约为3ns左右；当页面数量落在[11, 26]时，所需时间为6ns左右；继续增加页面数量，所需时间涨到10ns上下了。这说明系统存在二级TLB。我很懒，就不画折线图了。</p>
-<p>如果你有什么想法，或者发现了本文的问题，欢迎给我发<!-- raw HTML omitted -->邮件<!-- raw HTML omitted -->。</p>
+<p>如果你有什么想法，或者发现了本文的问题，欢迎给我发<a href="mailto:alyssaphacker@qq.com">邮件</a>。</p>
 ]]></description>
       
     </item>

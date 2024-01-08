@@ -16,10 +16,10 @@
       <guid>https://shorterthandijkstra.github.io/posts/end-of-2023/</guid>
       <description><![CDATA[<p>如你所见，今天是2024年的第一天，我在夜晚写下这篇2023年的个人总结。</p>
 <h1 id="学习">学习</h1>
-<p>出于对PL的兴趣，看完了Friedman的<!-- raw HTML omitted -->EOPL<!-- raw HTML omitted -->，这书的内容大致是教人实现一个不标准的Ocaml。我把<!-- raw HTML omitted -->习题<!-- raw HTML omitted -->做完了，写了非常多的解释器。这是我看的Friedman的第一本书，有时间把其他的作品也读读。</p>
-<p>然后出于对编译器的兴趣，又读了一下Jeremy的<!-- raw HTML omitted --> Essentials of Compilation <!-- raw HTML omitted -->。因为不熟悉汇编，中间抽时间读完了王爽的《汇编语言》，不过读完后感觉这书过时了。和EOPL一样，EOC也是用Scheme作为教学语言，动态类型的语言重构起来很难受。我花了很多时间写GC和寄存器分配，最后写出来的编译器很多bug。虽然Scheme是我的编程语言初恋，但是我不会再用它写大型项目了。或许我应该直接读虎书。</p>
-<p>对自己诚实是一个宝贵的品质。我本科的C语言学得很糟糕，对此我感到很焦虑。中间抽空把<!-- raw HTML omitted -->K&amp;R<!-- raw HTML omitted -->读完了，没做习题，刷了几道<!-- raw HTML omitted -->codewars <!-- raw HTML omitted -->。我操作系统也没学好，所以我把<!-- raw HTML omitted -->OSTEP<!-- raw HTML omitted -->读了一遍。</p>
-<p>其它编程语言方面，我看了一点Ocaml的内容，想实现一个<!-- raw HTML omitted -->编程语言<!-- raw HTML omitted -->，用来当作找一份相关工作的筹码，但是目前搁置了。等继续学数理逻辑和TAPL的时候再说吧。同时也学了一下Rust，看了一些材料，刷了一些<!-- raw HTML omitted -->codewars<!-- raw HTML omitted -->和<!-- raw HTML omitted -->codeforces<!-- raw HTML omitted -->。</p>
+<p>出于对PL的兴趣，看完了Friedman的<a href='https://eopl3.com/'>EOPL</a>，这书的内容大致是教人实现一个不标准的Ocaml。我把<a href='https://github.com/ShorterThanDijkstra/eopl3'>习题</a>做完了，写了非常多的解释器。这是我看的Friedman的第一本书，有时间把其他的作品也读读。</p>
+<p>然后出于对编译器的兴趣，又读了一下Jeremy的<a href='https://mitpress.mit.edu/9780262047760/essentials-of-compilation/'> Essentials of Compilation </a>。因为不熟悉汇编，中间抽时间读完了王爽的《汇编语言》，不过读完后感觉这书过时了。和EOPL一样，EOC也是用Scheme作为教学语言，动态类型的语言重构起来很难受。我花了很多时间写GC和寄存器分配，最后写出来的编译器很多bug。虽然Scheme是我的编程语言初恋，但是我不会再用它写大型项目了。或许我应该直接读虎书。</p>
+<p>对自己诚实是一个宝贵的品质。我本科的C语言学得很糟糕，对此我感到很焦虑。中间抽空把<a href='https://en.wikipedia.org/wiki/The_C_Programming_Language'>K&amp;R</a>读完了，没做习题，刷了几道<a href='https://github.com/ShorterThanDijkstra/codewars/tree/main/c'>codewars </a>。我操作系统也没学好，所以我把<a href='https://pages.cs.wisc.edu/~remzi/OSTEP/'>OSTEP</a>读了一遍。</p>
+<p>其它编程语言方面，我看了一点Ocaml的内容，想实现一个<a  href='https://github.com/ShorterThanDijkstra/CeleryOcaml'>编程语言</a>，用来当作找一份相关工作的筹码，但是目前搁置了。等继续学数理逻辑和TAPL的时候再说吧。同时也学了一下Rust，看了一些材料，刷了一些<a href='https://github.com/ShorterThanDijkstra/codewars/tree/main/rust'>codewars</a>和<a href='https://github.com/ShorterThanDijkstra/codeforces/tree/main/rust'>codeforces</a>。</p>
 <p>除此之外，我看了一些金融，区块链方面的材料，也在继续学英语。</p>
 <p>看似学了很多东西，但是我其实可以做得更好。因为自制力不够，我浪费了很多时间。比如玩手机玩得很晚，第二天脑袋昏沉，无法学习。希望自己能慢慢改变这些不好的习惯。</p>
 <p>我有一股深深的知识和技能焦虑，比起其他厉害的同龄人，我差太远了，起步晚，中间还走错了路。我不嫉妒他们，但是需要努力向他们学习，这样才不会落得太远。当然，求知的第一推动力应该是兴趣和好奇。</p>
@@ -32,7 +32,7 @@
 </blockquote>
 <p>在我成长的过程中，我也把一大堆错误的见解刻在自己的脑中，这给我的心灵造成了很大的痛苦。</p>
 <p>第二个因素是我自制力很差，无法控制自己享乐的欲望：比如沉迷短视频这种垃圾快乐（我从来不刷抖音，但是我喜欢玩b站），比如渴望女人的肉体，比如想要在他人身上获得虚荣。哲学家警告我们，金钱和社会地位是不值得追求的，对精神自由有害，但是和大多数人一样，我发现对这些东西的追逐是个迷人的游戏。</p>
-<p>我昨天读完了一本介绍<!-- raw HTML omitted -->斯多葛主义的书<!-- raw HTML omitted -->，它上面给出的一些建议或者有助于获得精神上的<!-- raw HTML omitted -->安宁<!-- raw HTML omitted -->。</p>
+<p>我昨天读完了一本介绍<a href='https://book.douban.com/subject/27167270/'>斯多葛主义的书</a>，它上面给出的一些建议或者有助于获得精神上的<a href='https://en.wikipedia.org/wiki/Eudaimonia'>安宁</a>。</p>
 <ul>
 <li>想象自己可能会遭受悲惨境遇，这样当灾难来临时，痛苦会减轻一些，同时也会让我们更珍惜当下所拥有的。</li>
 <li>将事情分为三个维度：我们不能控制的，比如天气；我们能够控制的，比如自己的价值观；我们能够在一定程度上控制的，比如赢得一场比赛。对于我们不能控制的事物，根本无需过多担心。对于我们能够控制的，我们应该细心把控。对于最后一种情况，我们要学会区分内在和外在的目标，将努力放在实现内在目标上。比如参加网球比赛，外在目标是赢得比赛，这是我们不能控制的。但是我们可以在平时努力训练，赛前好好休息，这是我们能够实现的内在目标。</li>
@@ -44,7 +44,7 @@
 <p>接下来讨论财富自由。</p>
 <p>哲学家告诫我们，财富是不值得追求的。人生短暂，我也认为把生命的主要精力放在追求财富上是愚蠢的。但是我认为财富有其价值。首先一点，如果有钱了，我就可以不做厌恶的工作，我可以把精力放在学习，写代码，阅读，旅游上。中国是一个福利很差的国家，财富能让我的家人过上更好的生活。</p>
 <p>但是获得财富是很困难的，而且世界变得越来越不平等。认真打工的人很难买一栋房子，很多人投机取巧甚至贪赃枉法却能获取巨量的钱财。</p>
-<p>我也看了一下北大教授的<!-- raw HTML omitted -->《金融经济学二十五讲》<!-- raw HTML omitted -->，但是很困惑，精力又不够，后面就放弃了。</p>
+<p>我也看了一下北大教授的<a href='https://book.douban.com/subject/30296163/'>《金融经济学二十五讲》</a>，但是很困惑，精力又不够，后面就放弃了。</p>
 <h1 id="工作">工作</h1>
 <p>很多的工作是没有意义的，甚至是对社会有害的。我目前的工作只能用来糊口，既赚不到什么钱，也学不到什么。</p>
 <p>希望自己以后能够做一些酷的工作，认识酷的人，这样，即使赚不到钱也没关系。</p>
