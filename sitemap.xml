@@ -2,19 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://shorterthandijkstra.github.io/tags/logic/</loc>
+    <lastmod>2024-05-29T19:42:19+08:00</lastmod>
+  </url><url>
+    <loc>https://shorterthandijkstra.github.io/posts/</loc>
+    <lastmod>2024-05-29T19:42:19+08:00</lastmod>
+  </url><url>
+    <loc>https://shorterthandijkstra.github.io/tags/</loc>
+    <lastmod>2024-05-29T19:42:19+08:00</lastmod>
+  </url><url>
+    <loc>https://shorterthandijkstra.github.io/posts/frege/</loc>
+    <lastmod>2024-05-29T19:42:19+08:00</lastmod>
+  </url><url>
+    <loc>https://shorterthandijkstra.github.io/</loc>
+    <lastmod>2024-05-29T19:42:19+08:00</lastmod>
+  </url><url>
+    <loc>https://shorterthandijkstra.github.io/tags/%E8%87%AA%E7%94%B1/</loc>
+    <lastmod>2024-04-08T19:18:42+08:00</lastmod>
+  </url><url>
+    <loc>https://shorterthandijkstra.github.io/posts/on-liberty/</loc>
+    <lastmod>2024-04-08T19:18:42+08:00</lastmod>
+  </url><url>
     <loc>https://shorterthandijkstra.github.io/tags/forth/</loc>
     <lastmod>2024-01-08T18:56:42+08:00</lastmod>
   </url><url>
     <loc>https://shorterthandijkstra.github.io/posts/forth-reading/</loc>
-    <lastmod>2024-01-08T18:56:42+08:00</lastmod>
-  </url><url>
-    <loc>https://shorterthandijkstra.github.io/posts/</loc>
-    <lastmod>2024-01-08T18:56:42+08:00</lastmod>
-  </url><url>
-    <loc>https://shorterthandijkstra.github.io/tags/</loc>
-    <lastmod>2024-01-08T18:56:42+08:00</lastmod>
-  </url><url>
-    <loc>https://shorterthandijkstra.github.io/</loc>
     <lastmod>2024-01-08T18:56:42+08:00</lastmod>
   </url><url>
     <loc>https://shorterthandijkstra.github.io/posts/end-of-2023/</loc>
@@ -35,6 +47,8 @@
     <loc>https://shorterthandijkstra.github.io/posts/tlb-measurement/</loc>
     <lastmod>2023-11-21T21:40:28+08:00</lastmod>
   </url><url>
+    <loc>https://shorterthandijkstra.github.io/thoughts/%E6%89%8B%E6%9C%BA%E5%A4%A7%E8%84%91/</loc>
+  </url><url>
     <loc>https://shorterthandijkstra.github.io/categories/</loc>
   </url><url>
     <loc>https://shorterthandijkstra.github.io/manifest/index.json</loc>
@@ -42,5 +56,7 @@
     <loc>https://shorterthandijkstra.github.io/reading/</loc>
   </url><url>
     <loc>https://shorterthandijkstra.github.io/search/</loc>
+  </url><url>
+    <loc>https://shorterthandijkstra.github.io/thoughts/</loc>
   </url>
 </urlset>

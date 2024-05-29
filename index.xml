@@ -5,7 +5,43 @@
     <description>Recent content on 陶语冰的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Jan 2024 18:56:42 +0800</lastBuildDate><atom:link href="https://shorterthandijkstra.github.io/index.xml" rel="self" type="application/rss+xml" /><icon>https://shorterthandijkstra.github.io/img/icon.svg</icon>
+    <lastBuildDate>Wed, 29 May 2024 19:42:19 +0800</lastBuildDate><atom:link href="https://shorterthandijkstra.github.io/index.xml" rel="self" type="application/rss+xml" /><icon>https://shorterthandijkstra.github.io/img/icon.svg</icon>
+    
+    
+    <item>
+      <title>弗雷格也是纳粹吗？</title>
+      <link>https://shorterthandijkstra.github.io/posts/frege/</link>
+      <pubDate>Wed, 29 May 2024 19:42:19 +0800</pubDate>
+      
+      <guid>https://shorterthandijkstra.github.io/posts/frege/</guid>
+      <description><![CDATA[<p><a href="https://www.aisixiang.com/data/106130.html">https://www.aisixiang.com/data/106130.html</a></p>
+]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>读《论自由》</title>
+      <link>https://shorterthandijkstra.github.io/posts/on-liberty/</link>
+      <pubDate>Mon, 08 Apr 2024 19:18:42 +0800</pubDate>
+      
+      <guid>https://shorterthandijkstra.github.io/posts/on-liberty/</guid>
+      <description><![CDATA[<p>上个月读完了约翰·穆勒的《论自由》，写篇小文总结一下。自由有多个维度，《庄子》里讨论了很多的精神自由，而这本书讨论的更多的是政治意义上的思想自由、言论自由和个性自由。</p>
+<p>遗憾的是，我英文不好，原版读起来很费力，只能读翻译过来的版本。我也不是学法律、伦理学的，对书的内容理解得很浅。</p>
+<p>书的开头阐明了基本原则：“人们若是要干涉群体中任何个体的行动自由，无论干涉出自个人还是出自集体，其唯一的正当的目的乃是保障自我不受伤害。”只要一个人的某个行为与他人的利益无关，他就有做这个行为的自由（未成年人例外），社会舆论不能谴责他，法律也不能强制他。</p>
+<p>穆勒是边沁的学生，所以他也是Utilitarianism的信奉者。上述原则的基石还是Utilitarianism。为什么要保障个人自由？为了全社会长远的幸福。吸毒这种行为与他人的利益看起来无关，但从保障全人类幸福的角度来看，应当给予惩罚。</p>
+<h3 id="思想自由与言论自由">思想自由与言论自由</h3>
+<p>为什么思想自由和言论自由如此重要？穆勒在书中给出了两个论点：</p>
+<ol>
+<li>我们无法确定要禁止的思想是错误的。</li>
+<li>即使禁止的思想是错误的，仍有讨论的必要。</li>
+</ol>
+<p>人人都知道自己会犯错，但是很难觉察到具体的错误。有时即使觉察到自己的错误，但是在某些社会里，一个人言论的正确与否和他的权力得失有关，于是这个人始终拒绝承认错误。</p>
+]]></description>
+      
+    </item>
+    
     
     
     <item>
@@ -184,6 +220,21 @@
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>不开任何优化，使用GCC编译运行，然后查看结果。在我的计算机上，访问页面数量在[1,10]这个区间时，访问一页所需的时间大约为3ns左右；当页面数量落在[11, 26]时，所需时间为6ns左右；继续增加页面数量，所需时间涨到10ns上下了。这说明系统存在二级TLB。我很懒，就不画折线图了。</p>
 <p>如果你有什么想法，或者发现了本文的问题，欢迎给我发<a href="mailto:alyssaphacker@qq.com">邮件</a>。</p>
+]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title></title>
+      <link>https://shorterthandijkstra.github.io/thoughts/%E6%89%8B%E6%9C%BA%E5%A4%A7%E8%84%91/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shorterthandijkstra.github.io/thoughts/%E6%89%8B%E6%9C%BA%E5%A4%A7%E8%84%91/</guid>
+      <description><![CDATA[<h1 id="进化的惯性">进化的惯性</h1>
+<p>很多人有过这样的经历：在明明已经吃饱的情况下，面对美味的食物，还想继续吃下去，即使理性告诉自己，再吃下去对身体不好。人为什么会有这样的欲望？人类所有的欲望都和进化有关。在生产力不发达的时代，很多人要面临饥饿的威胁。看到树上的果子，有的人吃饱后就离开了，第二天饿了再来，树上已经没有了果子。而有的人吃饱后还想继续吃，他们无疑有更大的生存几率。人类从诞生到现在，有多少时间需要面对饥饿的挑战？我没有考证过，考虑到今天仍然有人营养不良，我猜测这段时间的比例很大。虽然现在很多国家都没有饥饿的问题了，但是因为人类的温饱时代太短，大脑还不能适应新的环境。人吃饱了还想吃，是因为在漫长的历史中，这样的人能更好地存活下来。即使现在人类已经进入不愁吃喝的时代，但是这段时间太短，我们还保留了这样的欲望。</p>
+<p>进化是一条遥迢千里的河流，个人只是河流上的一滴水，个人无法克服食欲，也无法克服性欲，这是古希腊掌管进化的神给的设定。</p>
 ]]></description>
       
     </item>

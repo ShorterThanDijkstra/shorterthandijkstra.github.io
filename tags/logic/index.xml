@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
+  <channel>
+    <title>Logic on 陶语冰的博客</title>
+    <link>https://shorterthandijkstra.github.io/tags/logic/</link>
+    <description>Recent content in Logic on 陶语冰的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 29 May 2024 19:42:19 +0800</lastBuildDate><atom:link href="https://shorterthandijkstra.github.io/tags/logic/index.xml" rel="self" type="application/rss+xml" /><icon>https://shorterthandijkstra.github.io/img/icon.svg</icon>
+    
+    
+    <item>
+      <title>弗雷格也是纳粹吗？</title>
+      <link>https://shorterthandijkstra.github.io/posts/frege/</link>
+      <pubDate>Wed, 29 May 2024 19:42:19 +0800</pubDate>
+      
+      <guid>https://shorterthandijkstra.github.io/posts/frege/</guid>
+      <description><![CDATA[<p><a href="https://www.aisixiang.com/data/106130.html">https://www.aisixiang.com/data/106130.html</a></p>
+]]></description>
+      
+    </item>
+    
+    
+  </channel>
+</rss>
