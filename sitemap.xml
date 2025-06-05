@@ -3,18 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://shorterthandijkstra.github.io/tags/logic/</loc>
-    <lastmod>2024-05-29T19:42:19+08:00</lastmod>
+    <lastmod>2025-06-05T16:44:22+08:00</lastmod>
   </url><url>
     <loc>https://shorterthandijkstra.github.io/posts/</loc>
-    <lastmod>2024-05-29T19:42:19+08:00</lastmod>
+    <lastmod>2025-06-05T16:44:22+08:00</lastmod>
   </url><url>
     <loc>https://shorterthandijkstra.github.io/tags/</loc>
+    <lastmod>2025-06-05T16:44:22+08:00</lastmod>
+  </url><url>
+    <loc>https://shorterthandijkstra.github.io/posts/lean-natural-number-game/</loc>
+    <lastmod>2025-06-05T16:44:22+08:00</lastmod>
+  </url><url>
+    <loc>https://shorterthandijkstra.github.io/</loc>
+    <lastmod>2025-06-05T16:44:22+08:00</lastmod>
+  </url><url>
+    <loc>https://shorterthandijkstra.github.io/tags/rationality/</loc>
+    <lastmod>2024-05-29T19:42:19+08:00</lastmod>
+  </url><url>
+    <loc>https://shorterthandijkstra.github.io/posts/instrumental-rationality-vs-value-rationality/</loc>
     <lastmod>2024-05-29T19:42:19+08:00</lastmod>
   </url><url>
     <loc>https://shorterthandijkstra.github.io/posts/frege/</loc>
-    <lastmod>2024-05-29T19:42:19+08:00</lastmod>
-  </url><url>
-    <loc>https://shorterthandijkstra.github.io/</loc>
     <lastmod>2024-05-29T19:42:19+08:00</lastmod>
   </url><url>
     <loc>https://shorterthandijkstra.github.io/tags/%E7%88%B1/</loc>
@@ -53,10 +62,6 @@
     <loc>https://shorterthandijkstra.github.io/posts/tlb-measurement/</loc>
     <lastmod>2023-11-21T21:40:28+08:00</lastmod>
   </url><url>
-    <loc>https://shorterthandijkstra.github.io/thoughts/not_getting_enough_deep_sleep_may_increase_the_risk_of_developing_dementia/</loc>
-  </url><url>
-    <loc>https://shorterthandijkstra.github.io/thoughts/%E6%89%8B%E6%9C%BA%E5%A4%A7%E8%84%91/</loc>
-  </url><url>
     <loc>https://shorterthandijkstra.github.io/categories/</loc>
   </url><url>
     <loc>https://shorterthandijkstra.github.io/manifest/index.json</loc>
@@ -64,7 +69,5 @@
     <loc>https://shorterthandijkstra.github.io/reading/</loc>
   </url><url>
     <loc>https://shorterthandijkstra.github.io/search/</loc>
-  </url><url>
-    <loc>https://shorterthandijkstra.github.io/thoughts/</loc>
   </url>
 </urlset>

@@ -9,7 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
         <meta charset="UTF-8"/>
         
-        <link type="text/css" rel="stylesheet" href="https://shorterthandijkstra.github.io/css/styles.abbd6311bb4b6ca58f8e7398140529245ae0f6428b759fcd830742eee2619eabb900ba9914a9affb82aa9a16a9b9ea727bb315315a976a0db0e7513a5f12c504.css" integrity="sha512-q71jEbtLbKWPjnOYFAUpJFrg9kKLdZ/NgwdC7uJhnqu5ALqZFKmv+4Kqmhapuepye7MVMVqXag2w51E6XxLFBA==" />
+        <link type="text/css" rel="stylesheet" href="https://shorterthandijkstra.github.io/scss/style.551a2c58f60b742516f971da6c1bd29fec1a655a1bc29f52b6ab0da1159890638775f9d878b5537bbe13939c776e889ef8e0b96d3727a827167289d8ede07852.scss" integrity="sha512-VRosWPYLdCUW+XHabBvSn+waZVobwp9StqsNoRWYkGOHdfnYeLVTe74Tk5x3boie+OC5bTcnqCcWconY7eB4Ug==" />
         <style>
           .aboutfeeds {
             margin: 24px 0; padding: 12px;

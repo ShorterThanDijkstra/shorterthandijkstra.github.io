@@ -5,7 +5,34 @@
     <description>Recent content in Posts on 陶语冰的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 May 2024 19:42:19 +0800</lastBuildDate><atom:link href="https://shorterthandijkstra.github.io/posts/index.xml" rel="self" type="application/rss+xml" /><icon>https://shorterthandijkstra.github.io/img/icon.svg</icon>
+    <lastBuildDate>Thu, 05 Jun 2025 16:44:22 +0800</lastBuildDate><atom:link href="https://shorterthandijkstra.github.io/posts/index.xml" rel="self" type="application/rss+xml" /><icon>https://shorterthandijkstra.github.io/img/icon.svg</icon>
+    
+    
+    <item>
+      <title>我在幼儿园用lean证明2&#43;2=4</title>
+      <link>https://shorterthandijkstra.github.io/posts/lean-natural-number-game/</link>
+      <pubDate>Thu, 05 Jun 2025 16:44:22 +0800</pubDate>
+      
+      <guid>https://shorterthandijkstra.github.io/posts/lean-natural-number-game/</guid>
+      <description><![CDATA[<p>Building reliable software is hard &ndash; really hard. The scale and complexity of modern systems, the number of people involved, and the range of demands placed on them make it challenging to build software that is even more-or-less correct, much less 100% correct. At the same time, the increasing degree to which information processing is woven into every aspect of society greatly amplifies the cost of bugs and insecurities.
+Computer scientists and software engineers have responded to these challenges by developing a host of techniques for improving software reliability, ranging from recommendations about managing software projects teams (e.g., extreme programming) to design philosophies for libraries (e.g., model-view-controller, publish-subscribe, etc.) and programming languages (e.g., object-oriented programming, functional programming, &hellip;) to mathematical techniques for specifying and reasoning about properties of software and tools for helping validate these properties.</p>
+]]></description>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>工具理性与价值理性</title>
+      <link>https://shorterthandijkstra.github.io/posts/instrumental-rationality-vs-value-rationality/</link>
+      <pubDate>Wed, 29 May 2024 19:42:19 +0800</pubDate>
+      
+      <guid>https://shorterthandijkstra.github.io/posts/instrumental-rationality-vs-value-rationality/</guid>
+      <description><![CDATA[<p><a href="https://sparkpost.wordpress.com/2014/02/25/instrumental-rationality-vs-value-rationality/">https://sparkpost.wordpress.com/2014/02/25/instrumental-rationality-vs-value-rationality/</a></p>
+]]></description>
+      
+    </item>
+    
     
     
     <item>
@@ -82,8 +109,7 @@
 <p>首先讨论精神自由。庄子说：“岂唯形骸有聋盲哉？”我深感自己的心智受到了蒙蔽，被困在枷锁中。我浅浅分析了一下，导致我精神困境的因素主要有两个，第一个是错误的观念。</p>
 <p>笛卡尔在《第一哲学沉思集》里的第一个沉思里这样写道：</p>
 <blockquote>
-<p>由于很久以来我就感觉到我自从幼年时期起就把一大堆错误的见解当作真实的接受了过来，而从那时以后我根据一些非常靠不住的原则建立起来的东西都不能不是十分可以、十分不可靠的，因此我认为，如果我想要在科学上建立起某种坚定可靠、经久不变的东西的话，我就非在我有生之日认真地把我历来信以为真的一切见解统统清除出去，再从根本上重新开始不可。</p>
-</blockquote>
+<p>由于很久以来我就感觉到我自从幼年时期起就把一大堆错误的见解当作真实的接受了过来，而从那时以后我根据一些非常靠不住的原则建立起来的东西都不能不是十分可以、十分不可靠的，因此我认为，如果我想要在科学上建立起某种坚定可靠、经久不变的东西的话，我就非在我有生之日认真地把我历来信以为真的一切见解统统清除出去，再从根本上重新开始不可。</p></blockquote>
 <p>在我成长的过程中，我也把一大堆错误的见解刻在自己的脑中，这给我的心灵造成了很大的痛苦。</p>
 <p>第二个因素是我自制力很差，无法控制自己享乐的欲望：比如沉迷短视频这种垃圾快乐（我从来不刷抖音，但是我喜欢玩b站），比如想要在他人身上获得虚荣。哲学家警告我们，金钱和社会地位是不值得追求的，对精神自由有害，但是和大多数人一样，我发现对这些东西的追逐是个迷人的游戏。</p>
 <p>我昨天读完了一本介绍<a href='https://book.douban.com/subject/27167270/'>斯多葛主义的书</a>，它上面给出的一些建议或者有助于获得精神上的<a href='https://en.wikipedia.org/wiki/Eudaimonia'>安宁</a>。</p>
