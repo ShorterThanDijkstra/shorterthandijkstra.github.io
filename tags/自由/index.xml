@@ -1,24 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>自由 on 陶语冰的博客</title>
+    <title>自由 on My New Hugo Site</title>
     <link>https://shorterthandijkstra.github.io/tags/%E8%87%AA%E7%94%B1/</link>
-    <description>Recent content in 自由 on 陶语冰的博客</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in 自由 on My New Hugo Site</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Apr 2024 19:18:42 +0800</lastBuildDate><atom:link href="https://shorterthandijkstra.github.io/tags/%E8%87%AA%E7%94%B1/index.xml" rel="self" type="application/rss+xml" /><icon>https://shorterthandijkstra.github.io/img/icon.svg</icon>
-    
-    
+    <lastBuildDate>Mon, 08 Apr 2024 19:18:42 +0800</lastBuildDate>
+    <atom:link href="https://shorterthandijkstra.github.io/tags/%E8%87%AA%E7%94%B1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>读《论自由》</title>
-      <link>https://shorterthandijkstra.github.io/posts/on-liberty/</link>
+      <link>https://shorterthandijkstra.github.io/content/posts/on-liberty/</link>
       <pubDate>Mon, 08 Apr 2024 19:18:42 +0800</pubDate>
-      
-      <guid>https://shorterthandijkstra.github.io/posts/on-liberty/</guid>
-      <description><![CDATA[<p>(搁置）</p>
-]]></description>
-      
+      <guid>https://shorterthandijkstra.github.io/content/posts/on-liberty/</guid>
+      <description>&lt;p&gt;(搁置）&lt;/p&gt;</description>
     </item>
-    
-    
   </channel>
 </rss>

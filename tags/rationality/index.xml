@@ -1,24 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rationality on 陶语冰的博客</title>
+    <title>Rationality on My New Hugo Site</title>
     <link>https://shorterthandijkstra.github.io/tags/rationality/</link>
-    <description>Recent content in Rationality on 陶语冰的博客</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Rationality on My New Hugo Site</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 May 2024 19:42:19 +0800</lastBuildDate><atom:link href="https://shorterthandijkstra.github.io/tags/rationality/index.xml" rel="self" type="application/rss+xml" /><icon>https://shorterthandijkstra.github.io/img/icon.svg</icon>
-    
-    
+    <lastBuildDate>Wed, 29 May 2024 19:42:19 +0800</lastBuildDate>
+    <atom:link href="https://shorterthandijkstra.github.io/tags/rationality/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>工具理性与价值理性</title>
-      <link>https://shorterthandijkstra.github.io/posts/instrumental-rationality-vs-value-rationality/</link>
+      <link>https://shorterthandijkstra.github.io/content/posts/instrumental-rationality-vs-value-rationality/</link>
       <pubDate>Wed, 29 May 2024 19:42:19 +0800</pubDate>
-      
-      <guid>https://shorterthandijkstra.github.io/posts/instrumental-rationality-vs-value-rationality/</guid>
-      <description><![CDATA[<p><a href="https://sparkpost.wordpress.com/2014/02/25/instrumental-rationality-vs-value-rationality/">https://sparkpost.wordpress.com/2014/02/25/instrumental-rationality-vs-value-rationality/</a></p>
-]]></description>
-      
+      <guid>https://shorterthandijkstra.github.io/content/posts/instrumental-rationality-vs-value-rationality/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://sparkpost.wordpress.com/2014/02/25/instrumental-rationality-vs-value-rationality/&#34;&gt;https://sparkpost.wordpress.com/2014/02/25/instrumental-rationality-vs-value-rationality/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
-    
   </channel>
 </rss>

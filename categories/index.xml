@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on 陶语冰的博客</title>
+    <title>Categories on My New Hugo Site</title>
     <link>https://shorterthandijkstra.github.io/categories/</link>
-    <description>Recent content in Categories on 陶语冰的博客</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://shorterthandijkstra.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><icon>https://shorterthandijkstra.github.io/img/icon.svg</icon>
-    
+    <description>Recent content in Categories on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://shorterthandijkstra.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
