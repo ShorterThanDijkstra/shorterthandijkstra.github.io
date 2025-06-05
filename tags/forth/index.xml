@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Forth on My New Hugo Site</title>
     <link>https://example.org/tags/forth/</link>
     <description>Recent content in Forth on My New Hugo Site</description>
-    <generator>Hugo -- 0.147.3</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 08 Jan 2024 18:56:42 +0800</lastBuildDate>
     <atom:link href="https://example.org/tags/forth/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://example.org/content/posts/forth-reading/</link>
       <pubDate>Mon, 08 Jan 2024 18:56:42 +0800</pubDate>
       <guid>https://example.org/content/posts/forth-reading/</guid>
-      <description>长文慎读</description>
+      <description>&lt;p&gt;这两天读一篇介绍Forth的&lt;!-- raw HTML omitted --&gt;文章&lt;!-- raw HTML omitted --&gt;，非常长，谨慎阅读。&lt;/p&gt;&#xA;&lt;p&gt;讲了一些Forth的特性（Stack-based, Concatenative programming等），和创始人Chuck Moore发展Forth的历程，以及Forth的一些成功应用。&lt;/p&gt;&#xA;&lt;p&gt;文章还列出了很多有趣的链接。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

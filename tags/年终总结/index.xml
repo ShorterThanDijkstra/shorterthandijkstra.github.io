@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>年终总结 on My New Hugo Site</title>
     <link>https://example.org/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</link>
     <description>Recent content in 年终总结 on My New Hugo Site</description>
-    <generator>Hugo -- 0.147.3</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jan 2024 21:40:28 +0800</lastBuildDate>
     <atom:link href="https://example.org/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://example.org/content/posts/end-of-2023/</link>
       <pubDate>Mon, 01 Jan 2024 21:40:28 +0800</pubDate>
       <guid>https://example.org/content/posts/end-of-2023/</guid>
-      <description>我在2023年做了什么</description>
+      <description>&lt;p&gt;如你所见，今天是2024年的第一天，我在夜晚写下这篇2023年的个人总结。&lt;/p&gt;&#xA;&lt;h1 id=&#34;学习&#34;&gt;学习&lt;/h1&gt;&#xA;&lt;p&gt;出于对PL的兴趣，看完了Friedman的&lt;!-- raw HTML omitted --&gt;EOPL&lt;!-- raw HTML omitted --&gt;，这书的内容大致是教人实现一个不标准的Ocaml。我把&lt;!-- raw HTML omitted --&gt;习题&lt;!-- raw HTML omitted --&gt;做完了，写了非常多的解释器。这是我看的Friedman的第一本书，有时间把其他的作品也读读。&lt;/p&gt;&#xA;&lt;p&gt;然后出于对编译器的兴趣，又读了一下Jeremy的&lt;!-- raw HTML omitted --&gt; Essentials of Compilation &lt;!-- raw HTML omitted --&gt;。因为不熟悉汇编，中间抽时间读完了王爽的《汇编语言》，不过读完后感觉这书过时了。和EOPL一样，EOC也是用Scheme作为教学语言，动态类型的语言重构起来很难受。我花了很多时间写GC和寄存器分配，最后写出来的编译器很多bug。虽然Scheme是我的编程语言初恋，但是我不会再用它写大型项目了。或许我应该直接读虎书。&lt;/p&gt;&#xA;&lt;p&gt;对自己诚实是一个宝贵的品质。我本科的C语言学得很糟糕，对此我感到很焦虑。中间抽空把&lt;!-- raw HTML omitted --&gt;K&amp;amp;R&lt;!-- raw HTML omitted --&gt;读完了，没做习题，刷了几道&lt;!-- raw HTML omitted --&gt;codewars &lt;!-- raw HTML omitted --&gt;。我操作系统也没学好，所以我把&lt;!-- raw HTML omitted --&gt;OSTEP&lt;!-- raw HTML omitted --&gt;读了一遍。&lt;/p&gt;&#xA;&lt;p&gt;其它编程语言方面，我看了一点Ocaml的内容，想实现一个&lt;!-- raw HTML omitted --&gt;编程语言&lt;!-- raw HTML omitted --&gt;，用来当作找一份相关工作的筹码，但是目前搁置了。等继续学数理逻辑和TAPL的时候再说吧。同时也学了一下Rust，看了一些材料，刷了一些&lt;!-- raw HTML omitted --&gt;codewars&lt;!-- raw HTML omitted --&gt;和&lt;!-- raw HTML omitted --&gt;codeforces&lt;!-- raw HTML omitted --&gt;。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,210 +1,44 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
-
-<head><meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
-<title>操作系统 | My New Hugo Site</title>
-<meta name="keywords" content="">
-<meta name="description" content="">
-<meta name="author" content="">
-<link rel="canonical" href="https://example.org/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.2211ca3164be7830024f6aad2b3a2e520843a64f8f048445c3401c1249aa051d.css" integrity="sha256-IhHKMWS&#43;eDACT2qtKzouUghDpk&#43;PBIRFw0AcEkmqBR0=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://example.org/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://example.org/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://example.org/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://example.org/apple-touch-icon.png">
-<link rel="mask-icon" href="https://example.org/safari-pinned-tab.svg">
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://example.org/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/index.xml">
-<link rel="alternate" hreflang="en" href="https://example.org/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/">
-<noscript>
-    <style>
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
-
-    </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
-        }
-
-    </style>
-</noscript><meta property="og:url" content="https://example.org/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/">
-  <meta property="og:site_name" content="My New Hugo Site">
-  <meta property="og:title" content="操作系统">
-  <meta property="og:locale" content="en-us">
-  <meta property="og:type" content="website">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="操作系统">
-<meta name="twitter:description" content="">
-
-</head>
-
-<body class="list" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
-
-<header class="header">
-    <nav class="nav">
-        <div class="logo">
-            <a href="https://example.org/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
-            <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <line x1="12" y1="1" x2="12" y2="3"></line>
-                        <line x1="12" y1="21" x2="12" y2="23"></line>
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                        <line x1="1" y1="12" x2="3" y2="12"></line>
-                        <line x1="21" y1="12" x2="23" y2="12"></line>
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                    </svg>
-                </button>
-            </div>
-        </div>
-        <ul id="menu">
-        </ul>
-    </nav>
-</header>
-<main class="main"> 
-<header class="page-header">
-  <h1>
-    操作系统
-  </h1>
-</header>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">测量TLB的容量和访问TLB的开销
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>TLB的全称是translation lookaside buffer，不懂这个概念的人就不要看下去了，本文只讲讲怎么测量TLB的容量和访问TLB的开销。
-先来讲基本思路。假设我们有一个横跨多页的大数组arr，页面大小是4096个字节，int大小为4个字节，那么每页就有1024个数组元素。第1次访问arr[0]，第1次访问arr[1024]，第1次访问arr[2048] …… 于是我们就依次访问了第1页，第2页，第3页……
-开一个横跨多页的数组，依次修改各个页里面的数组元素，访问的页面数量逐渐变多，直到超过了TLB的容量，访问数组元素就会变慢，这就是基本思路。
-几个问题：
-如何知道操作系统的页面大小？ 对于有多个CPU的计算机，为了得到更准确的数据，如何做到程序只在一个CPU上运行？ Talk is cheap, show you my code：
-#define _GNU_SOURCE #include &lt;fcntl.h&gt; #include &lt;stdint.h&gt; #include &lt;stdio.h&gt; #include &lt;stdlib.h&gt; #include &lt;sys/time.h&gt; #include &lt;unistd.h&gt; #include &lt;sched.h&gt; #define MAX_NUM_PAGES 256 #define TRIALS 10000000 void trials(int jump, int num_pages, int arr[]) { struct timeval start, end; gettimeofday(&amp;start, NULL); for (int i = 0; i &lt; TRIALS; i&#43;&#43;) { for (int i = 0; i &lt; num_pages * jump; i &#43;= jump) { arr[i] &#43;= 1; } } gettimeofday(&amp;end, NULL); uint64_t trial_time = (end.tv_sec - start.tv_sec) * 1000000 &#43; end.tv_usec - start.tv_usec; double one_trial_time = trial_time / (double)(num_pages * TRIALS); printf(&#34;pages:%d, average time:%f\n&#34;, num_pages, one_trial_time); } int main(int argc, char *argv[]) { cpu_set_t cpuset; CPU_ZERO(&amp;cpuset); CPU_SET(0, &amp;cpuset); if (sched_setaffinity(0, sizeof(cpu_set_t), &amp;cpuset)) { fprintf(stderr, &#34;Error setting cpu affinity\n&#34;); exit(EXIT_FAILURE); } int page_size = getpagesize(); int jump = page_size / sizeof(int); int *arr = (int *)calloc(MAX_NUM_PAGES * jump, sizeof(int)); for (int pages = 1; pages &lt; MAX_NUM_PAGES; pages&#43;&#43;) { trials(jump, pages, arr); } } 不开任何优化，使用GCC编译运行，然后查看结果。在我的计算机上，访问页面数量在[1,10]这个区间时，访问一页所需的时间大约为3ns左右；当页面数量落在[11, 26]时，所需时间为6ns左右；继续增加页面数量，所需时间涨到10ns上下了。这说明系统存在二级TLB。我很懒，就不画折线图了。
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2023-11-21 21:40:28 +0800 CST'>November 21, 2023</span></footer>
-  <a class="entry-link" aria-label="post link to 测量TLB的容量和访问TLB的开销" href="https://example.org/content/posts/tlb-measurement/"></a>
-</article>
-    </main>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>操作系统 | My New Hugo Site</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
     
-<footer class="footer">
-        <span>&copy; 2025 <a href="https://example.org/">My New Hugo Site</a></span> · 
+  </head>
 
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
-</footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
-</a>
+  <body>
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
 
-<script>
-    let menu = document.getElementById('menu')
-    if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
-    }
 
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
-        });
-    });
 
-</script>
-<script>
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
+<h1>操作系统</h1>
 
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
 
-</script>
-</body>
 
+
+<ul>
+  
+  
+  
+  <li>
+    <span class="date">2023/11/21</span>
+    <a href="/content/posts/tlb-measurement/">测量TLB的容量和访问TLB的开销</a>
+  </li>
+  
+</ul>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
 </html>
+
