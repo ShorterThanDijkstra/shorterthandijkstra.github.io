@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Logic on My New Hugo Site</title>
-    <link>https://shorterthandijkstra.github.io/tags/logic/</link>
+    <link>https://example.org/tags/logic/</link>
     <description>Recent content in Logic on My New Hugo Site</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.147.3</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 05 Jun 2025 16:44:22 +0800</lastBuildDate>
-    <atom:link href="https://shorterthandijkstra.github.io/tags/logic/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/tags/logic/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我在幼儿园用lean证明2&#43;2=4</title>
-      <link>https://shorterthandijkstra.github.io/content/posts/lean-natural-number-game/</link>
+      <link>https://example.org/content/posts/lean-natural-number-game/</link>
       <pubDate>Thu, 05 Jun 2025 16:44:22 +0800</pubDate>
-      <guid>https://shorterthandijkstra.github.io/content/posts/lean-natural-number-game/</guid>
-      <description>&lt;p&gt;Building reliable software is hard &amp;ndash; really hard. The scale and complexity of modern systems, the number of people involved, and the range of demands placed on them make it challenging to build software that is even more-or-less correct, much less 100% correct. At the same time, the increasing degree to which information processing is woven into every aspect of society greatly amplifies the cost of bugs and insecurities.&#xA;Computer scientists and software engineers have responded to these challenges by developing a host of techniques for improving software reliability, ranging from recommendations about managing software projects teams (e.g., extreme programming) to design philosophies for libraries (e.g., model-view-controller, publish-subscribe, etc.) and programming languages (e.g., object-oriented programming, functional programming, &amp;hellip;) to mathematical techniques for specifying and reasoning about properties of software and tools for helping validate these properties.&lt;/p&gt;</description>
+      <guid>https://example.org/content/posts/lean-natural-number-game/</guid>
+      <description>学习用lean写入门级别的定理证明</description>
     </item>
     <item>
       <title>弗雷格也是纳粹吗？</title>
-      <link>https://shorterthandijkstra.github.io/content/posts/frege/</link>
+      <link>https://example.org/content/posts/frege/</link>
       <pubDate>Wed, 29 May 2024 19:42:19 +0800</pubDate>
-      <guid>https://shorterthandijkstra.github.io/content/posts/frege/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.aisixiang.com/data/106130.html&#34;&gt;https://www.aisixiang.com/data/106130.html&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://example.org/content/posts/frege/</guid>
+      <description>戈特洛布·弗雷格：鬼影中的机器</description>
     </item>
   </channel>
 </rss>
