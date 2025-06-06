@@ -51,7 +51,7 @@
       <description>&lt;p&gt;这两天读一篇介绍Forth的&lt;a href=&#34;https://ratfactor.com/forth/the_programming_language_that_writes_itself.html&#34;&gt;文章&lt;/a&gt;，非常长，谨慎阅读。&lt;/p&gt;&#xA;&lt;p&gt;讲了一些Forth的特性（Stack-based, Concatenative programming等），和创始人Chuck Moore发展Forth的历程，以及Forth的一些成功应用。&lt;/p&gt;&#xA;&lt;p&gt;文章还列出了很多有趣的链接。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>memorized Fibonacci sequence</title>
+      <title>利用Haskell的laziness计算斐波那契数列</title>
       <link>https://shorterthandijkstra.github.io/posts/memorized-fibonacci/</link>
       <pubDate>Mon, 25 Dec 2023 21:40:50 +0800</pubDate>
       <guid>https://shorterthandijkstra.github.io/posts/memorized-fibonacci/</guid>
