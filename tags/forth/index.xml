@@ -10,10 +10,10 @@
     <atom:link href="https://shorterthandijkstra.github.io/tags/forth/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Forth: The programming language that writes itself</title>
-      <link>https://shorterthandijkstra.github.io/content/posts/forth-reading/</link>
+      <link>https://shorterthandijkstra.github.io/posts/forth-reading/</link>
       <pubDate>Mon, 08 Jan 2024 18:56:42 +0800</pubDate>
-      <guid>https://shorterthandijkstra.github.io/content/posts/forth-reading/</guid>
-      <description>&lt;p&gt;这两天读一篇介绍Forth的&lt;!-- raw HTML omitted --&gt;文章&lt;!-- raw HTML omitted --&gt;，非常长，谨慎阅读。&lt;/p&gt;&#xA;&lt;p&gt;讲了一些Forth的特性（Stack-based, Concatenative programming等），和创始人Chuck Moore发展Forth的历程，以及Forth的一些成功应用。&lt;/p&gt;&#xA;&lt;p&gt;文章还列出了很多有趣的链接。&lt;/p&gt;</description>
+      <guid>https://shorterthandijkstra.github.io/posts/forth-reading/</guid>
+      <description>&lt;p&gt;这两天读一篇介绍Forth的&lt;a href=&#34;https://ratfactor.com/forth/the_programming_language_that_writes_itself.html&#34;&gt;文章&lt;/a&gt;，非常长，谨慎阅读。&lt;/p&gt;&#xA;&lt;p&gt;讲了一些Forth的特性（Stack-based, Concatenative programming等），和创始人Chuck Moore发展Forth的历程，以及Forth的一些成功应用。&lt;/p&gt;&#xA;&lt;p&gt;文章还列出了很多有趣的链接。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

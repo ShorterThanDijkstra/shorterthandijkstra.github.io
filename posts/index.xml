@@ -1,13 +1,62 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>操作系统 on My New Hugo Site</title>
-    <link>https://shorterthandijkstra.github.io/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
-    <description>Recent content in 操作系统 on My New Hugo Site</description>
+    <title>Posts on My New Hugo Site</title>
+    <link>https://shorterthandijkstra.github.io/posts/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Nov 2023 21:40:28 +0800</lastBuildDate>
-    <atom:link href="https://shorterthandijkstra.github.io/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Jun 2025 16:44:22 +0800</lastBuildDate>
+    <atom:link href="https://shorterthandijkstra.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我在幼儿园用lean证明2&#43;2=4</title>
+      <link>https://shorterthandijkstra.github.io/posts/lean-natural-number-game/</link>
+      <pubDate>Thu, 05 Jun 2025 16:44:22 +0800</pubDate>
+      <guid>https://shorterthandijkstra.github.io/posts/lean-natural-number-game/</guid>
+      <description>&lt;p&gt;Building reliable software is hard &amp;ndash; really hard. The scale and complexity of modern systems, the number of people involved, and the range of demands placed on them make it challenging to build software that is even more-or-less correct, much less 100% correct. At the same time, the increasing degree to which information processing is woven into every aspect of society greatly amplifies the cost of bugs and insecurities.&#xA;Computer scientists and software engineers have responded to these challenges by developing a host of techniques for improving software reliability, ranging from recommendations about managing software projects teams (e.g., extreme programming) to design philosophies for libraries (e.g., model-view-controller, publish-subscribe, etc.) and programming languages (e.g., object-oriented programming, functional programming, &amp;hellip;) to mathematical techniques for specifying and reasoning about properties of software and tools for helping validate these properties.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>工具理性与价值理性</title>
+      <link>https://shorterthandijkstra.github.io/posts/instrumental-rationality-vs-value-rationality/</link>
+      <pubDate>Wed, 29 May 2024 19:42:19 +0800</pubDate>
+      <guid>https://shorterthandijkstra.github.io/posts/instrumental-rationality-vs-value-rationality/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://sparkpost.wordpress.com/2014/02/25/instrumental-rationality-vs-value-rationality/&#34;&gt;https://sparkpost.wordpress.com/2014/02/25/instrumental-rationality-vs-value-rationality/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>弗雷格也是纳粹吗？</title>
+      <link>https://shorterthandijkstra.github.io/posts/frege/</link>
+      <pubDate>Wed, 29 May 2024 19:42:19 +0800</pubDate>
+      <guid>https://shorterthandijkstra.github.io/posts/frege/</guid>
+      <description>&lt;p&gt;逻辑学是门历史悠久的学科，1879年弗雷格发表《概念文字》后，逻辑学成为了一门伟大的学科。&#xA;这篇文章讨论了弗雷格的一些性格特点: &lt;a href=&#34;https://www.aisixiang.com/data/106130.html&#34;&gt;https://www.aisixiang.com/data/106130.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>读《会饮篇》</title>
+      <link>https://shorterthandijkstra.github.io/posts/the-symposium/</link>
+      <pubDate>Sun, 21 Apr 2024 17:41:43 +0800</pubDate>
+      <guid>https://shorterthandijkstra.github.io/posts/the-symposium/</guid>
+      <description>&lt;p&gt;(搁置）&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>读《论自由》</title>
+      <link>https://shorterthandijkstra.github.io/posts/on-liberty/</link>
+      <pubDate>Mon, 08 Apr 2024 19:18:42 +0800</pubDate>
+      <guid>https://shorterthandijkstra.github.io/posts/on-liberty/</guid>
+      <description>&lt;p&gt;(搁置）&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Forth: The programming language that writes itself</title>
+      <link>https://shorterthandijkstra.github.io/posts/forth-reading/</link>
+      <pubDate>Mon, 08 Jan 2024 18:56:42 +0800</pubDate>
+      <guid>https://shorterthandijkstra.github.io/posts/forth-reading/</guid>
+      <description>&lt;p&gt;这两天读一篇介绍Forth的&lt;a href=&#34;https://ratfactor.com/forth/the_programming_language_that_writes_itself.html&#34;&gt;文章&lt;/a&gt;，非常长，谨慎阅读。&lt;/p&gt;&#xA;&lt;p&gt;讲了一些Forth的特性（Stack-based, Concatenative programming等），和创始人Chuck Moore发展Forth的历程，以及Forth的一些成功应用。&lt;/p&gt;&#xA;&lt;p&gt;文章还列出了很多有趣的链接。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>memorized Fibonacci sequence</title>
+      <link>https://shorterthandijkstra.github.io/posts/memorized-fibonacci/</link>
+      <pubDate>Mon, 25 Dec 2023 21:40:50 +0800</pubDate>
+      <guid>https://shorterthandijkstra.github.io/posts/memorized-fibonacci/</guid>
+      <description>&lt;p&gt;今天在Codewars刷到&lt;a href=&#34;https://www.codewars.com/kata/529adbf7533b761c560004e5/train/haskell&#34;&gt;一题&lt;/a&gt;，看到一个人的解答很巧妙。&lt;/p&gt;&#xA;&lt;p&gt;众所周知，下面这段求斐波那契数列的代码很慢：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-haskell&#34; data-lang=&#34;haskell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fibonacci&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Int&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Integer&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fibonacci&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fibonacci&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fibonacci&lt;/span&gt; n &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; fibonacci (n&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; fibonacci (n&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;我们可以转成迭代的方式或者使用记忆化搜索。&lt;/p&gt;&#xA;&lt;p&gt;这是我从SICP的3.5节学到的，利用惰性求值算自然数数列：&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;nat :: [Int]&#xA;nat  = 0:map (+1) nat&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;ok，你已经学会了怎么求自然数数列，接下来算斐波那契数列吧：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-haskell&#34; data-lang=&#34;haskell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fib&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Int&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; [&lt;span style=&#34;color:#66d9ef&#34;&gt;Int&lt;/span&gt;]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fib&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;:&lt;/span&gt;zipWith (&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;) fib (tail fib)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;但是能不能在保留树形递归的同时进行记忆化搜索呢？&lt;/p&gt;&#xA;&lt;p&gt;下面这段代码我觉得非常巧妙：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-haskell&#34; data-lang=&#34;haskell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fibonacci&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Int&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Integer&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fibonacci&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; (map fib&amp;#39; [&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;..&lt;/span&gt;] &lt;span style=&#34;color:#f92672&#34;&gt;!!&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;where&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&#x9;fib&amp;#39; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&#x9;fib&amp;#39; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&#x9;fib&amp;#39; n &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; fibonacci (n &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; fibonacci (n &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;以我对Haskell的浅薄理解，我证明不了上述代码有记忆化搜索的性质，希望有高手能教教我。&lt;/p&gt;&#xA;&lt;p&gt;但是速度肯定是快多了，毕竟&lt;a href=&#34;https://wiki.haskell.org/Memoization&#34;&gt;Haskell Wiki&lt;/a&gt;上是这样说的。&lt;/p&gt;&#xA;&lt;p&gt;（ok，这个月的博客糊弄完了！）&lt;/p&gt;</description>
+    </item>
     <item>
       <title>测量TLB的容量和访问TLB的开销</title>
       <link>https://shorterthandijkstra.github.io/posts/tlb-measurement/</link>
